@@ -5,8 +5,6 @@ header{
     margin: 0 auto;
     display: flex;
     justify-content: center;
-
-    
 }
 
 .container{
@@ -56,6 +54,7 @@ header{
 
 }
 .cabecalho a{
+    font-family: "PTSansNarrow";
     width: 224px;
     height: 60px;
     border: 1px solid  #0699A6;
@@ -74,7 +73,10 @@ section{
    
 }
 
-.aptidoes , .certificados , .carreira {margin-bottom: 100px;}
+.aptidoes , .certificados , .carreira {
+    margin-bottom: 100px;
+    font-family: "PTSansNarrow";
+}
 
 .boxleft{
     width: 350px;
@@ -100,8 +102,12 @@ section{
     letter-spacing: 0px;
 
 }
+.trabalhos h3{
+    font-family: "PTSansNarrow";
+}
 
 .trabalhos p{
+    font-family: "PTSansNarrow";
     color: #0699A6;
 }
 
@@ -119,6 +125,9 @@ section{
     margin-bottom: 72px;
 }
 
+.sobre p{
+    font-family: "PTSansNarrow";
+}
 
 .boxright p{
     font-weight: 400px;
@@ -126,12 +135,20 @@ section{
     line-height: 34px;
     
 }
-
+.divisao1{
+    width: 75px;
+    height: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #0699A6;
+    background-color: #0699A6;
+}
 
 .divisao{
     width: 75px;
     height: 10px;
     margin-top: 80px;
+    margin-bottom: 60px;
     color: #0699A6;
     background-color: #0699A6;
 }
@@ -149,18 +166,49 @@ section{
 .box p{
     line-height: 32px; 
 }
-
+    
+.experiencia h2{
+    margin-bottom: 40px;
+    margin-top: -90px;
+}
 .textoexperiencia{
     max-width: 100%;
     height: auto;
     display: flex;
     justify-content: space-between;
+    margin-top: -70px;
 }
 
 .textoexperiencia h3{
     color: #9E8C6C;
+    font-family: "PTSansNarrow";
+    margin-top: 80px;
+}
+.textoexperiencia h4{
+        font-family: "PTSansNarrow";
+        font-weight: 400;
+        margin-top: 80px;
+    }
+
+.experienciap{
+    font-family: "PTSansNarrow";
 }
 
+.box p{
+    font-family: "PTSansNarrow";
+}
+.graduacaoextras{
+    display: flex;
+    justify-content: space-between;
+}
+.graduacaoextras h3{
+    font-family: "PTSansNarrow";
+    color: #9E8C6C;
+}
+.graduacaoextras h4{
+    font-family: "PTSansNarrow";
+    font-weight: 400;
+}
 
 footer{
     max-width: 100%;
