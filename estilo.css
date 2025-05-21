@@ -46,7 +46,8 @@ header{
 }
 
 .cabecalho h3{
-     color:#9E8C6C;
+    font-family: "PTSansNarrow";
+    color:#9E8C6C;
     font-size: 18px;
     letter-spacing: 2px;
     line-height: 24px;

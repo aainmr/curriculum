@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "Narrow";
+    font-family: "PTSansNarrow";
     src: url(../font/PTSansNarrow-Regular.ttf);
     font-weight: 400;
 }
 @font-face {
-    font-family: "Narrow";
+    font-family: "PTSansNarrow";
     src: url(../font/PTSansNarrow-Bold.ttf); 
     font-weight: 700;
 }
