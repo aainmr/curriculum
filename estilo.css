@@ -258,7 +258,6 @@ footer{
         height: 500px;
         display: flex;
         flex-direction: column;
-        
         align-items: center;
        justify-content: space-between;
     }
@@ -283,7 +282,7 @@ footer{
     .cabecalho h1{
         font-size: 67px;
         text-align: center;
-        line-height: 80%;
+        line-height: 100%;
         margin-left: -120px;
         margin-top: 10px;
     }
@@ -331,6 +330,6 @@ footer{
     line-height: 100%;
 }
 .boxfooter h2{
-    line-height: 80%;
+    line-height: 200%;
 }
 }
