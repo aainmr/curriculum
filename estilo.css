@@ -323,4 +323,7 @@ footer{
 .aptidoes, .certificados, .carreira{
     margin-top: -70px;
 }
+.boxfooter h3{
+    line-height: 80%;
+}
 }
