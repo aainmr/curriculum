@@ -314,6 +314,9 @@ footer{
     .sobre{
         margin-top: -90px;
     }
+    .divisao1{
+        margin-bottom: 50px;
+    }
     .experiencia{
         margin-top: 100px;
     }
@@ -332,10 +335,7 @@ footer{
 .boxfooter {
     line-height: 100%;
 }
-
-}
 .boxfooter h2{
     line-height: 100%;
     margin-top: -100px;
-}
 }
