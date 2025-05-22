@@ -5,11 +5,12 @@ header{
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    padding: 120px 0;
 }
 
 .container{
     width: 1440px;
-    height: 700px;
+
     display: flex;
     align-content: center;
     justify-content: space-around;
@@ -17,8 +18,7 @@ header{
 
 }
 .perfil{
-    margin-top: 180px;
-    margin-left: 165px;
+
 }
 
 .perfil img{
@@ -29,10 +29,7 @@ header{
 }
 
 .cabecalho{
-    width: 1440px;
-    height: 225px;
-    margin-left: 125px;
-    margin-top: 125px;
+
     
 }
 
@@ -66,6 +63,7 @@ header{
 }
 
 section{
+    padding: 80px 0;
     max-width: 100%;
     height: auto;
     display: flex;
@@ -80,8 +78,6 @@ section{
 
 .boxleft{
     width: 350px;
-    height: 1559px;
-    margin-top: 123px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -117,8 +113,6 @@ section{
 .boxright{
     width: 635px;
     height: auto;
-    margin-top: 123px;
-    margin-left: 138px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -226,6 +220,7 @@ footer{
     height: 260px;
     margin: 0 auto;
     padding-top: 175px;
+    padding-bottom: 180px;
     text-align: center;
 }
 
@@ -258,39 +253,33 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
-       justify-content: space-between;
+        height: auto;
+        padding: 0 0 120px 0;
+       
     }
     .perfil img {
-        width:160px;
-        height:160px;
-        align-items: top;
-        margin-top: -170px;
-        margin-left: -150px;
+        width: 350px;
+        height: 350px;
+        align-items: center;
     }
+
     .cabecalho{
-        max-width: 50%;
-        max-height: 50%;
-        display: flex;
         flex-direction: column;
-        margin-top: -300px;
+        align-items: center;
+        text-align: center;
+
     }
-    .cabecalho h3{
-        margin-top: -90px;
-        margin-left: -60px;
-    }
+    
     .cabecalho h1{
         font-size: 67px;
         text-align: center;
         line-height: 100%;
-        margin-left: -120px;
-        margin-top: 10px;
+     
     }
     .cabecalho a{
         max-width: 25%;
         margin-bottom: 60px;
-        margin-top: -20px;
-        margin-left: 30px;
-        margin-right: 80px;
+   
         padding: 22px 22px;
         text-align: center;
     }
@@ -305,36 +294,35 @@ footer{
         margin-left: 0px;
         height: auto 0;
     }
+
     .box{
         margin-bottom: 96px;
     }
+
     .sobre, .box{
         width: 100%;
     }
-    .sobre{
-        margin-top: -90px;
-    }
+
     .experiencia{
         margin-top: 150px;
     }
-    .aptidoes{
-        margin-top: -100px;
-    }
+
     .graduacao{
     margin-top: 150px;
-}
-.aptidoes, .certificados, .carreira{
+    }
+
+    .aptidoes, .certificados, .carreira{
     margin-top: -70px;
-}
-.trabalhos p{
-    margin-bottom: -300px;
-}
-.boxfooter {
+    }
+
+    .boxfooter {
     line-height: 100%;
-}
-.boxfooter h2{
+    height: auto;
+    padding-bottom: 180px;
+    }
+
+    .boxfooter h2{
     line-height: 100%;
-    margin-top: -100px;
-}
+    }
 
 }
