@@ -102,6 +102,9 @@ section{
     letter-spacing: 0px;
 
 }
+.trabalhos{
+    margin-top: -10px;
+}
 .trabalhos h3{
     font-family: "PTSansNarrow";
 }
@@ -280,7 +283,7 @@ footer{
     .cabecalho h1{
         font-size: 67px;
         text-align: center;
-        line-height: 75%;
+        line-height: 80%;
         margin-left: -120px;
         margin-top: 10px;
     }
@@ -323,7 +326,11 @@ footer{
 .aptidoes, .certificados, .carreira{
     margin-top: -70px;
 }
+
 .boxfooter {
     line-height: 100%;
+}
+.boxfooter h2{
+    line-height: 80%;
 }
 }
