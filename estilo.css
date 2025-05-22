@@ -252,7 +252,7 @@ footer{
 @media screen and (max-width:1023px){
     .container{
         width: 596px;
-        height: 450px;
+        height: 500px;
         display: flex;
         flex-direction: column;
         
@@ -274,7 +274,7 @@ footer{
         margin-top: -300px;
     }
     .cabecalho h3{
-        margin-top: -30px;
+        margin-top: -90px;
         margin-left: -60px;
     }
     .cabecalho h1{
@@ -289,5 +289,38 @@ footer{
         margin-bottom: 60px;
         margin-left: 30px;
         margin-right: 80px;
-        padding: 10px 22px;
+        padding: 22px 22px;
+        text-align: center;
     }
+    section{
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .boxleft, .boxright{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .box{
+        margin-bottom: 96px;
+    }
+    .sobre, .box{
+        width: 100%;
+    }
+    .sobre{
+        margin-top: -90px;
+    }
+    .experiencia{
+        margin-top: 100px;
+    }
+    .aptidoes{
+        margin-top: -100px;
+    }
+    .graduacao{
+    margin-top: 150px;
+}
+.apti
+.aptidoes, .certificados, .carreira{
+    margin-top: -70px;
+}
