@@ -303,7 +303,7 @@ footer{
     .boxleft, .boxright{
         width: 100%;
         margin-left: 0px;
-        height: 1200px
+        height: 1200px;
     }
     .box{
         margin-bottom: 96px;
