@@ -78,6 +78,7 @@ section{
 .boxleft{
     width: 350px;
     background-color: rgb(255, 255, 255);
+    margin-right: 32px;
 }
 
 .boxleft h3{
@@ -317,5 +318,7 @@ footer{
     .boxfooter h2{
     line-height: 100%;
     }
-
+    .boxleft{
+        margin-right: 0px;
+    }
 }
