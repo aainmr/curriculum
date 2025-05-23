@@ -63,7 +63,6 @@ header{
 }
 
 section{
-    padding: 80px 0;
     max-width: 100%;
     height: auto;
     display: flex;
@@ -279,7 +278,6 @@ footer{
     .cabecalho a{
         max-width: 25%;
         margin-bottom: 60px;
-   
         padding: 22px 22px;
         text-align: center;
     }
@@ -291,7 +289,6 @@ footer{
     }
     .boxleft, .boxright{
         width: 100%;
-        margin-left: 0px;
         height: auto 0;
     }
 
@@ -309,10 +306,6 @@ footer{
 
     .graduacao{
     margin-top: 150px;
-    }
-
-    .aptidoes, .certificados, .carreira{
-    margin-top: -70px;
     }
 
     .boxfooter {
