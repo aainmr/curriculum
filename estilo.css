@@ -1,5 +1,14 @@
+:root{
+    --color-primary:#A66606;
+    --color-secondary: #a88c0c;
+    --color-thertiary: #D1C3AF;
+    ;
+
+
+}
+
 header{
-    background-color: #F5F3F0;
+    background-color: var(--color-thertiary);
     max-width: 100%;
     height: auto;
     margin: 0 auto;
@@ -10,27 +19,16 @@ header{
 
 .container{
     width: 1440px;
-
     display: flex;
     align-content: center;
     justify-content: space-around;
-    
-
-}
-.perfil{
-
 }
 
 .perfil img{
     align-items: center;
     width: 350px;
     height: 350px;
-    border-radius: 100%;
-}
-
-.cabecalho{
-
-    
+    border-radius: 100%;  
 }
 
 .cabecalho h1{
@@ -42,7 +40,7 @@ header{
 
 .cabecalho h3{
     font-family: "PTSansNarrow";
-    color:#9E8C6C;
+    color: var(--color-secondary);
     font-size: 18px;
     letter-spacing: 2px;
     line-height: 24px;
@@ -54,8 +52,8 @@ header{
     font-family: "PTSansNarrow";
     width: 224px;
     height: 60px;
-    border: 1px solid  #0699A6;
-    background-color: #0699A6;
+    border: 1px solid  var(--color-primary);
+    background-color: var(--color-primary);
     color: white;
     text-decoration: none;
     text-align: center;
@@ -82,7 +80,7 @@ section{
 }
 
 .boxleft h3{
-    color:#9E8C6C;
+    color:var(--color-secondary);
     font-weight: 700px;
     font-size: 18px;
     line-height: 24px;
@@ -107,7 +105,7 @@ section{
 
 .trabalhos p{
     font-family: "PTSansNarrow";
-    color: #0699A6;
+    color: var(--color-primary);
 }
 
 .boxright{
@@ -137,8 +135,8 @@ section{
     height: 10px;
     margin-top: 40px;
     margin-bottom: 40px;
-    color: #0699A6;
-    background-color: #0699A6;
+    color: var(--color-primary);
+    background-color: var(--color-primary);
 }
 
 .divisao{
@@ -146,8 +144,8 @@ section{
     height: 10px;
     margin-top: 80px;
     margin-bottom: 60px;
-    color: #0699A6;
-    background-color: #0699A6;
+    color: var(--color-primary);
+    background-color: var(--color-primary);
 }
 
 .divisao h2{
@@ -176,7 +174,7 @@ section{
 }
 
 .textoexperiencia h3{
-    color: #9E8C6C;
+    color: var(--color-secondary);
     font-family: "PTSansNarrow";
     margin-top: 80px;
 }
@@ -199,7 +197,7 @@ section{
 }
 .graduacaoextras h3{
     font-family: "PTSansNarrow";
-    color: #9E8C6C;
+    color: var(--color-secondary);
 }
 .graduacaoextras h4{
     font-family: "PTSansNarrow";
@@ -209,7 +207,7 @@ section{
 footer{
     max-width: 100%;
     height: auto;
-    background-color: #F5F3F0;
+    background-color: var(--color-thertiary);
     display: flex;
     align-content: center;
 }
@@ -231,7 +229,7 @@ footer{
 }
 
 .boxfooter h3{
-    color: #0699A6;
+    color: var(--color-primary);
     font-weight: 900px;
     font-size: 35px;
     line-height: 45px;
