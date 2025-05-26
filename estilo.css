@@ -103,6 +103,9 @@ section{
 .trabalhos p{
     font-family: "PTSansNarrow";
     color: var(--color-primary);
+}
+
+.trabalhos a{
     text-decoration: none;
 }
 
