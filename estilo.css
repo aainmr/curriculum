@@ -6,7 +6,7 @@
 
 header{
     background-color: var(--color-thertiary);
-    max-width: 100%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     display: flex;
@@ -260,13 +260,13 @@ footer{
 }
 
 @media screen and (max-width:1023px){
+
     .container{
         width: 100%;
-        height: 500px;
+        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: auto;
         padding: 0 0 120px 0;
        
     }
@@ -323,6 +323,7 @@ footer{
     }
 
     .boxfooter {
+    width: 100%;
     line-height: 100%;
     height: auto;
     padding-bottom: 180px;
