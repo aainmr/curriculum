@@ -106,7 +106,7 @@ section{
     color: var(--color-primary);
 }
 
-.trabalhos p a{
+.trabalhos a{
     text-decoration: none;
     color: var(--color-primary);
 }
