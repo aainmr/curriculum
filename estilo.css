@@ -242,7 +242,12 @@ footer{
     font-size: 35px;
     line-height: 45px;
 }
-
+.boxfooter a{
+    color: var(--color-primary);
+    font-weight: 900px;
+    font-size: 35px;
+    line-height: 45px;
+}
 .midias{
     margin: 0 auto;
     width: 245px;
