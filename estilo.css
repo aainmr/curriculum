@@ -243,6 +243,7 @@ footer{
     line-height: 45px;
 }
 .boxfooter a{
+    text-decoration: none;
     color: var(--color-primary);
     font-weight: 900px;
     font-size: 35px;
