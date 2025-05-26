@@ -240,7 +240,7 @@ footer{
 .boxfooter h3{
     color: var(--color-primary);
     font-weight: 900px;
-    font-size: 35px;
+    font-size: 24px;
     line-height: 45px;
 }
 .boxfooter a{
