@@ -127,6 +127,16 @@ section{
 
 .sobre p{
     font-family: "PTSansNarrow";
+    display: block;
+    padding: 12px;
+    color:rgb(0, 0, 0);
+    border: 2px solid rgb(173, 127, 0);
+    width: 700px;
+    text-decoration: none;
+    border-radius: 16px;
+    text-align: center;
+    font-weight: bold;
+    list-style: none;
 }
 
 .boxright p{
