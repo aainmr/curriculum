@@ -94,7 +94,7 @@ section{
 }
 .trabalhos{
     margin-top: -10px;
-    text-decoration: none;
+  
 }
 .trabalhos h3{
     font-family: "PTSansNarrow";
@@ -103,6 +103,7 @@ section{
 .trabalhos p{
     font-family: "PTSansNarrow";
     color: var(--color-primary);
+    text-decoration: none;
 }
 
 .boxright{
