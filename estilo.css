@@ -94,6 +94,7 @@ section{
 }
 .trabalhos{
     margin-top: -10px;
+    text-decoration: none;
 }
 .trabalhos h3{
     font-family: "PTSansNarrow";
