@@ -188,6 +188,11 @@ section{
 .box p{
     font-family: "PTSansNarrow";
 }
+.graduacao{
+    display: flex;
+    flex-direction: column;
+}
+
 .graduacaoextras{
     display: flex;
     justify-content: space-between;
