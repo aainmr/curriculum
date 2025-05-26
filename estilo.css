@@ -315,7 +315,11 @@ footer{
         width: 100%;
         height: auto 0;
     }
-
+    .sobre p{
+        width: 100%;
+        height: auto 0;
+    }
+    
     .box{
         margin-bottom: 96px;
     }
