@@ -249,7 +249,6 @@ footer{
     font-weight: 900px;
     font-size: 35px;
     line-height: 45px;
-    font-size: 16px;
 }
 .midias{
     margin: 0 auto;
@@ -334,7 +333,7 @@ footer{
     }
 
     .boxfooter h3{
-      font-size: 24px;
+      font-size: 16px;
         }
     
 }
