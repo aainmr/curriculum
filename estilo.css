@@ -242,9 +242,12 @@ footer{
     font-size: 35px;
     line-height: 45px;
 }
-.email {margin: 0 auto;
-    width: 245px;
-    height: 24px;
+.email{
+    color: var(--color-primary);
+    font-weight: 900px;
+    font-size: 35px;
+    line-height: 45px;
+    
 }
 
 .midias{
