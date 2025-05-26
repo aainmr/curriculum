@@ -101,6 +101,7 @@ section{
 }
 
 .trabalhos p{
+    text-decoration: none;
     font-family: "PTSansNarrow";
     color: var(--color-primary);
 }
