@@ -242,9 +242,6 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-.nodisplay{
-    display: none;
-}
 
 @media screen and (max-width:1023px){
     .container{
@@ -275,9 +272,6 @@ footer{
         text-align: center;
         line-height: 100%;
      
-    }
-    .nodisplay{
-        display: block;
     }
     .cabecalho a{
         max-width: 25%;
