@@ -242,13 +242,6 @@ footer{
     font-size: 35px;
     line-height: 45px;
 }
-.email{
-    color: var(--color-primary);
-    font-weight: 900px;
-    font-size: 35px;
-    line-height: 45px;
-    
-}
 
 .midias{
     margin: 0 auto;
