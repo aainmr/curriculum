@@ -116,7 +116,7 @@ section{
     height: auto;
     background-color: rgb(255, 255, 255);
     margin-top: 40px;
-    padding: 48px;
+    padding: 48px 0;
 }
 
 .sobre {
@@ -332,6 +332,7 @@ footer{
     .boxfooter h2{
     line-height: 100%;
     }
+
     .boxleft{
         margin-right: 0px;
     }
