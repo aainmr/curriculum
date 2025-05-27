@@ -66,7 +66,7 @@ section{
 }
 
 .aptidoes , .certificados , .carreira {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     font-family: "PTSansNarrow";
 }
 
@@ -146,8 +146,8 @@ section{
 .divisao{
     width: 75px;
     height: 10px;
-    margin-top: 80px;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 30px;
     color: var(--color-primary);
     background-color: var(--color-primary);
 }
@@ -165,9 +165,6 @@ section{
     line-height: 32px; 
 }
     
-.experiencia h2{
- 
-}
 .textoexperiencia{
     max-width: 100%;
     height: auto;
@@ -229,7 +226,7 @@ footer{
 .boxfooter h2{
     font-weight: 900px;
     font-size: 65px;
-    line-height: 8px;
+    line-height: 24px;
     
 }
 
@@ -243,7 +240,7 @@ footer{
     text-decoration: none;
     color: var(--color-primary);
     font-weight: 900px;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 45px;
     
 }
@@ -316,9 +313,6 @@ footer{
     height: auto;
     padding-bottom: 180px;
     }
-.boxfooter a{
-
-}
     .boxfooter h2{
     line-height: 100%;
     }
