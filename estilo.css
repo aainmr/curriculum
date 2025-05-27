@@ -120,7 +120,7 @@ section{
 
 .sobre {
     width: 635px;
-    height: 326px;
+    height: auto;
     margin-bottom: 72px;
 }
 
@@ -158,8 +158,7 @@ section{
 
 .box{
     width: 635px;
-    height: 238px;
-    margin-bottom: 64px;
+    height: auto;
 }
 
 .box p{
@@ -167,8 +166,7 @@ section{
 }
     
 .experiencia h2{
-    margin-bottom: 40px;
-    margin-top: -90px;
+ 
 }
 .textoexperiencia{
     max-width: 100%;
@@ -180,12 +178,10 @@ section{
 .textoexperiencia h3{
     color: var(--color-secondary);
     font-family: "PTSansNarrow";
-    margin-top: 80px;
 }
 .textoexperiencia h4{
         font-family: "PTSansNarrow";
         font-weight: 400;
-        margin-top: 80px;
     }
 
 .experienciap{
@@ -262,7 +258,7 @@ footer{
 @media screen and (max-width:1023px){
 
     .container{
-        width: 500px;
+        width: 100%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -306,20 +302,12 @@ footer{
         height: auto 0;
     }
 
-    .box{
-        margin-bottom: 96px;
-    }
-
     .sobre, .box{
         width: 100%;
     }
 
     .experiencia{
         margin-top: 150px;
-    }
-
-    .graduacao{
-    margin-top: 150px;
     }
 
     .boxfooter{
