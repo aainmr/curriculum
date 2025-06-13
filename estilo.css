@@ -6,7 +6,7 @@
 
 header{
     background-color: var(--color-thertiary);
-    max-width: 100%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     display: flex;
@@ -66,7 +66,7 @@ section{
 }
 
 .aptidoes , .certificados , .carreira {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     font-family: "PTSansNarrow";
 }
 
@@ -94,13 +94,20 @@ section{
 }
 .trabalhos{
     margin-top: -10px;
+  
 }
 .trabalhos h3{
     font-family: "PTSansNarrow";
 }
 
 .trabalhos p{
+    text-decoration: none;
     font-family: "PTSansNarrow";
+    color: var(--color-primary);
+}
+
+.trabalhos a{
+    text-decoration: none;
     color: var(--color-primary);
 }
 
@@ -113,7 +120,7 @@ section{
 
 .sobre {
     width: 635px;
-    height: 326px;
+    height: auto;
     margin-bottom: 72px;
 }
 
@@ -139,8 +146,8 @@ section{
 .divisao{
     width: 75px;
     height: 10px;
-    margin-top: 80px;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 30px;
     color: var(--color-primary);
     background-color: var(--color-primary);
 }
@@ -151,18 +158,13 @@ section{
 
 .box{
     width: 635px;
-    height: 238px;
-    margin-bottom: 64px;
+    height: auto;
 }
 
 .box p{
     line-height: 32px; 
 }
     
-.experiencia h2{
-    margin-bottom: 40px;
-    margin-top: -90px;
-}
 .textoexperiencia{
     max-width: 100%;
     height: auto;
@@ -173,12 +175,10 @@ section{
 .textoexperiencia h3{
     color: var(--color-secondary);
     font-family: "PTSansNarrow";
-    margin-top: 80px;
 }
 .textoexperiencia h4{
         font-family: "PTSansNarrow";
         font-weight: 400;
-        margin-top: 80px;
     }
 
 .experienciap{
@@ -207,7 +207,7 @@ section{
 }
 
 footer{
-    max-width: 100%;
+    width: 100%;
     height: auto;
     background-color: var(--color-thertiary);
     display: flex;
@@ -215,7 +215,7 @@ footer{
 }
 
 .boxfooter{
-    width: 790px;
+    width: 100%;
     height: 260px;
     margin: 0 auto;
     padding-top: 175px;
@@ -226,17 +226,24 @@ footer{
 .boxfooter h2{
     font-weight: 900px;
     font-size: 65px;
-    line-height: 8px;
+    line-height: 24px;
     
 }
 
 .boxfooter h3{
     color: var(--color-primary);
     font-weight: 900px;
-    font-size: 35px;
+    font-size: 16px;
     line-height: 45px;
 }
-
+.boxfooter a{
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: 900px;
+    font-size: 24px;
+    line-height: 45px;
+    
+}
 .midias{
     margin: 0 auto;
     width: 245px;
@@ -246,13 +253,13 @@ footer{
 }
 
 @media screen and (max-width:1023px){
+
     .container{
-        width: 596px;
-        height: 500px;
+        width: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: auto;
         padding: 0 0 120px 0;
        
     }
@@ -292,10 +299,6 @@ footer{
         height: auto 0;
     }
 
-    .box{
-        margin-bottom: 96px;
-    }
-
     .sobre, .box{
         width: 100%;
     }
@@ -304,20 +307,18 @@ footer{
         margin-top: 150px;
     }
 
-    .graduacao{
-    margin-top: 150px;
-    }
-
-    .boxfooter {
+    .boxfooter{
+    width: 100%;
     line-height: 100%;
     height: auto;
     padding-bottom: 180px;
     }
-
     .boxfooter h2{
     line-height: 100%;
     }
-    .boxleft{
-        margin-right: 0px;
-    }
+
+    .boxfooter h3{
+      font-size: 24px;
+        }
+    
 }
